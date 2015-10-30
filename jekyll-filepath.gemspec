@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/jekyll-filepath.rb"]
   s.homepage    = 'http://manuelgruber.com'
   s.license     = 'MIT'
-  s.add_dependency "jekyll", '~> 2.5'
+  s.add_dependency "jekyll", '~> 2.5.3'
 end
