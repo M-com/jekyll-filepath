@@ -1,5 +1,3 @@
-sudo: false
-language: ruby
 before_deploy: "echo 'Travis build'"
 deploy:
   provider: rubygems
