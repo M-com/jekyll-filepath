@@ -1,0 +1,13 @@
+sudo: false
+language: ruby
+before_deploy: "echo 'Travis build'"
+deploy:
+  provider: rubygems
+  api_key:
+    secure: KTxqXHdZ8f9/oCbXf60tg+sUsjK1p1j/fgzsfX0pTs/hKdNvoJ1oBID+dqLEflBJgXph+gPzI4STdFzPn70g0Uft35XTSM8ptfUcjKauiy+somvHKXI7dz15mPsb8KUA3CSPaplmB3+jNVVfflICjx1E32syNBfLDG/ll7dCO8ZUR+taGVCVMBUC1wWLZPm/GbYMUfSPUCsxeywzbSRqcjpsslgweeQJwOprdJfJRT/j8SIIi6pKEj8jUU1p7Ywwp4M8bdo4X4exGBjxpuJTozbSqjNgI1fJ9iZBBRbAV8vUio5vOwIuFLiEd7Z3DLHRe2xNqOgu9H2xluFk1oUPld/1PTmpqg+CrL2R6Xm2NV2WRIHbZYcKAp2GkGNroHRbavZqKHNF7N0EBwbXjaondXO9+zdextQ06O53U/8QY06xVAZ2+FaM7/VrfHW8on3xH+s7pj2jD0DdTOsCk0gLTxIKqeuEAKxTxcT9OHxcEmAjb2bV2lVyD1k5wpD+pEGXwwtGMxOp4wWv3Wllz9X/5QuC4io6en440ny1iJvtG7OpGII2meeOgSftvlDWyTfBA9JP3NF1/C2qVMcMJDBNGU2iaArjFSSGiIwGjYtFt8/zUDEuFQPrfynE9UZK91SgMck/0/4TDcZBnT9dmRDRTd+M+ZAgnlcnjiJ7cF0V3sc=
+  gem: jekyll-filepath
+  gemspec: jekyll-filepath.gemspec
+  on:
+    tags: true
+    branch: master
+    repo: M-com/jekyll-filepath
