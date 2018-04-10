@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'jekyll-filepath'
-  s.version     = '0.3.1'
-  s.date        = '2015-11-05'
+  s.version     = '1.0.0'
+  s.date        = '2018-04-10'
   s.summary     = "FilePath"
   s.description = "FilePath gem for Jekyll"
   s.authors     = ["Manuel Gruber"]
